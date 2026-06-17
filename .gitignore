@@ -84,3 +84,30 @@ htmlcov/
 *.bak
 *.orig
 
+# cn-trader sensitive files
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+*.kdbx
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*password*
+*passwd*
+*secret*
+*token*
+*credential*
+data/*.db
+data/**/*.db
+data/*.sqlite
+data/**/*.sqlite
+instance/*.db
+instance/*.sqlite
